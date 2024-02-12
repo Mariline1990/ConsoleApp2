@@ -43,7 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="..\..\..\Program.cs">
+      <Link>Program.cs</Link>
+    </Compile>
+    <Compile Include="menu.cs" />
+    <Compile Include="Piatti.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
