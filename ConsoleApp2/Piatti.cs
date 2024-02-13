@@ -10,8 +10,11 @@ namespace ConsoleApp2
     internal class Piatto
     {
 
-        private string _name { get; set; }
-        private double _prezzo {  get; set; }
+        public string _name { get; set; }
+        public double _prezzo {  get; set; }
+
+
+
         public Piatto(string nome, double prezzo) {
 
             this._name = nome;
